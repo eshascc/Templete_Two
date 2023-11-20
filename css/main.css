@@ -822,3 +822,125 @@ width: 100%;
     background-color: transparent;
     border: 1px solid #19c8fa;
 }
+
+.contact-us{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+.contact-us .container-all .button{
+    padding: 20px;
+    background-color: #19c8fa;
+    width: fit-content;
+    margin: 15px auto auto;
+    color: white;
+}
+
+.subscrib{
+    background-image: url('../assets/subscribe.jpg');
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: cover;
+position: relative;
+}
+
+.subscrib .container-all{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.subscrib .container-all p{
+    color: white;
+    margin-left: 50px;
+    line-height: 2;
+}
+
+.subscrib .container-all form{
+    position: relative;
+    width: 500px;
+    max-width: 100%;
+    display: flex;
+}
+
+.subscrib .container-all form i{
+    color: white;
+    top: 50%;
+    position: absolute;
+    transform: translate(0, -50%);
+    left: 25px;
+}
+
+.subscrib .container-all form input[type="email"]{
+    background-color: transparent;
+    border: 1px solid white;
+    width: calc(100% - 130px);
+}
+
+.subscrib .container-all form input[type="submit"]{
+    background-color: #19c8fa;
+    width: 130px;
+    border: 1px solid white;
+    
+}
+.subscrib .container-all form i::before{
+    content: "\f0e0";
+}
+.subscrib::before{
+    content: '';
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0 0 0 /60%);
+}
+
+.subscrib form ::placeholder{
+    color: white;
+    position: absolute;
+    left: 60px;
+}
+
+.footer{
+    background-image: url(../assets/subscribe.jpg);
+    background-size: cover;
+    padding: 60px;
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.footer::before{
+    content: '';
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0 0 0 /60%);
+}
+.footer .container-all{
+position: relative;
+}
+.footer .container-all img{
+    margin-bottom: 20px;
+}
+
+.footer .container-all p{
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.footer .container-all ul{
+    list-style: none;
+    display: flex;
+    background-color: white;
+}
+.footer .container-all .social i{
+    margin-left:20px ;
+    color: white;
+}
